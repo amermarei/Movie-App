@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --bgcolor: #131722;
+  --lightBgColor: #24baef;
+  --bgTransparent: rgba(36, 186, 239, 06);
+  --frontColor: #fff;
+  --borderColor: #a8a8a83d;
+  --borderHeight: 1px;
+  --secondFontColor: #949cb0;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: var(--bgcolor);
+  color: var(--frontColor);
+}
+
+code {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.control li {
+  color: #909290;
+  transition: 0.2s;
+}
+.control li:hover {
+  color: white;
+}
+
+.my-input {
+  background-color: transparent;
+  border: 1px solid var(--borderColor) !important;
+  color: var(--frontColor);
+}
+.my-input:focus {
+  background-color: transparent;
+  caret-color: var(--lightBgColor);
+  color: var(--secondFontColor);
+}
+
+.logout {
+  cursor: pointer;
+}
+
+.rate {
+  background-color: var(--lightBgColor);
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.parent::before {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 1px;
+  left: 10px;
+  background-color: var(--borderColor);
+}
+.parent::after {
+  content: "";
+  position: absolute;
+  width: 265px;
+  height: 1px;
+  left: 10px;
+  background-color: var(--borderColor);
+}
+
+.details {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  background-color: #24b9ef77;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+.content:hover .details {
+  top: 0;
+}
