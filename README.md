@@ -2,8 +2,8 @@
 Movies app showing Trending Movies , Tv shows and  actors and their Details 
 
 # Api Used 
-based on themoviedb: https://www.themoviedb.org/
-For dev and API documentation: https://developers.themoviedb.org/3/getting-started/introduction
+### based on themoviedb: https://www.themoviedb.org/
+### For dev and API documentation: https://developers.themoviedb.org/3/getting-started/introduction
 
 # Featutes :
 - Authentication (Login - logout - Register)
